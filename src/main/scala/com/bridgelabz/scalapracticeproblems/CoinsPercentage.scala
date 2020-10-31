@@ -10,31 +10,42 @@ package com.bridgelabz.scalapracticeproblems
 import scala.util.Random
 // NumberFormatException
 object CoinsPercentage {
+  // Accepts number of flips from user and calculates percentage of heads and tails
   def main(args: Array[String]): Unit = {
-    val numOfFlips = scala.io.StdIn.readInt()
-    if(numOfFlips < 0){
-      println("Enter positive integer")
-    }
-    else{
-      var heads = 0;
-      var tails = 0;
-      for ( i <- 0 until numOfFlips)
+    try
       {
-        val randomNumber = Math.random()
-        println(randomNumber)
-        if(randomNumber < 0.5){
-          tails += 1;
+        val numOfFlips = scala.io.StdIn.readInt()
+        if(numOfFlips < 0)
+        {
+          println("Enter positive integer")
         }
         else{
-          heads += 1;
+          var heads = 0;
+          var tails = 0;
+          for ( i <- 0 until numOfFlips)
+          {
+            val randomNumber = Math.random()
+            if(randomNumber < 0.5){
+              tails += 1;
+            }
+            else{
+              heads += 1;
+            }
+          }
+          val headsPercentage = heads/numOfFlips.toDouble
+          val tailsPercentage = tails/numOfFlips.toDouble
+          println("Heads percent:" + headsPercentage * 100)
+          println("Tails percent:" + tailsPercentage * 100)
         }
       }
-      println(heads)
-      println(tails)
-      val headsPercentage = heads/numOfFlips.toDouble
-      val tailsPercentage = tails/numOfFlips.toDouble
-      println("Heads percent:" + headsPercentage * 100)
-      println("Tails percent:" + tailsPercentage * 100)
-    }
+    catch
+      {
+        case ex : NumberFormatException => {
+          println("Number Format Exception")
+        }
+        case ex : ArithmeticException => {
+          println("Arithmetic Exception")
+        }
+      }
   }
 }
