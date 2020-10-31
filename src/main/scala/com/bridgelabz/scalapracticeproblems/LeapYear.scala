@@ -2,7 +2,7 @@ package com.bridgelabz.scalapracticeproblems
 
 
 /**
- * author - Admin
+ * author - Ruchir
  * date - 31-10-2020
  * time - 12:09
  * package - com.bridgelabz.scalapracticeproblems
@@ -16,7 +16,7 @@ object LeapYear {
       {
         var leap = false
         val IsLeapYear = new Regex("^[0-9]{4}$")
-        val year = scala.io.StdIn.readLine()
+        val year = Utilities.getStringInput()
         if (IsLeapYear.matches(year))
           {
             val intYear = Integer.parseInt(year)
@@ -40,11 +40,11 @@ object LeapYear {
       }
     catch
       {
-        case ex : IOException =>
+        case _ : IOException =>
         {
           println("IO Exception")
         }
-        case ex : ArithmeticException =>
+        case _ : ArithmeticException =>
         {
           println("Arithmetic Exception")
         }

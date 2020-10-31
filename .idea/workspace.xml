@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="" />
+    <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/CoinsPercentage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/CoinsPercentage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/LeapYear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/LeapYear.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/PowerOfTwo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/PowerOfTwo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/ReplaceString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/ReplaceString.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo$.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,9 +167,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PowerOfTwo" />
-        <item itemvalue="Application.LeapYear" />
         <item itemvalue="Application.ReplaceString" />
         <item itemvalue="Application.CoinsPercentage" />
+        <item itemvalue="Application.LeapYear" />
         <item itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
@@ -222,7 +230,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

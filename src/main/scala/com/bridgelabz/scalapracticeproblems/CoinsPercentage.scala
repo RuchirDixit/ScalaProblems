@@ -1,37 +1,37 @@
 package com.bridgelabz.scalapracticeproblems
 
 /**
- * author - Admin
+ * author - Ruchir
  * date - 30-10-2020
  * time - 23:34
  * package - com.bridgelabz.scalapracticeproblems
  * title - Flip coins and find percentage of heads and tails
  */
-import scala.util.Random
-// NumberFormatException
+
 object CoinsPercentage {
   // Accepts number of flips from user and calculates percentage of heads and tails
+  val ConditionHeadsAndTails = 0.5
   def main(args: Array[String]): Unit = {
     try
       {
-        val numOfFlips = scala.io.StdIn.readInt()
+        val numOfFlips = Utilities.getIntegerInput()
         if(numOfFlips < 0)
         {
           println("Enter positive integer")
         }
-        else{
-          var heads = 0;
+        else {
           var tails = 0;
-          for ( i <- 0 until numOfFlips)
+          // looping through N number of flips to check count of tails
+          for ( _ <- 0 until numOfFlips)
           {
+            // Choosing random value between 0 to 1
             val randomNumber = Math.random()
-            if(randomNumber < 0.5){
+            if(randomNumber < ConditionHeadsAndTails){
               tails += 1;
             }
-            else{
-              heads += 1;
-            }
           }
+          val heads = numOfFlips - tails
+          // Calculating heads and tails percentage
           val headsPercentage = heads/numOfFlips.toDouble
           val tailsPercentage = tails/numOfFlips.toDouble
           println("Heads percent:" + headsPercentage * 100)
@@ -40,11 +40,11 @@ object CoinsPercentage {
       }
     catch
       {
-        case ex : NumberFormatException => {
-          println("Number Format Exception")
+        case _ : NumberFormatException => {
+          println("Error,Incorrect Type of input, Expected value is Integer")
         }
-        case ex : ArithmeticException => {
-          println("Arithmetic Exception")
+        case _ : ArithmeticException => {
+          println("Error,Integer divided by 0")
         }
       }
   }

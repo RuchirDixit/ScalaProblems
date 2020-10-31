@@ -1,7 +1,7 @@
 package com.bridgelabz.scalapracticeproblems
 
 /**
- * author - Admin
+ * author - Ruchir
  * date - 30/10/20
  * time - 11:00 PM
  * package - com.bridgelabz.scalapracticeproblems
@@ -19,7 +19,8 @@ object ReplaceString {
       {
       val pattern = new Regex("^[a-zA-Z]{3,}$")
       println("Enter username:")
-      val userName = scala.io.StdIn.readLine()
+      val userName = Utilities.getStringInput()
+        // If pattern matches username when print String with username else print Does not match
       if (pattern.matches(userName))
         println("Hello " + userName + ", How are you?")
       else
@@ -27,8 +28,8 @@ object ReplaceString {
       }
     catch
       {
-        case ex: IOException => {
-          println("IO Exception")
+        case _: NumberFormatException => {
+          println("Incorrect format of Input, expected value is String")
         }
       }
   }
