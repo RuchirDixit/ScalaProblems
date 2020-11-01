@@ -20,4 +20,15 @@ object Utilities {
   def getBooleanInput() = {
     scala.io.StdIn.readBoolean()
   }
+  def getTwoDIntegerArray(rows : Int , columns : Int)  = {
+    val arrayName = Array.ofDim[Int](rows,columns)
+    for (counter <- 0 until rows)
+      {
+        for (nestedCounter <- 0 until columns)
+          {
+              arrayName(counter)(nestedCounter) = getIntegerInput()
+          }
+      }
+    arrayName
+  }
 }

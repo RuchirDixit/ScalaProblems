@@ -1,5 +1,7 @@
 package com.bridgelabz.scalapracticeproblems
 
+import com.bridgelabz.scalapracticeproblems.Utilities.getIntegerInput
+
 /**
  * author - Ruchir
  * date - 01-11-2020
