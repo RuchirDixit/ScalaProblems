@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HarmonicNumber">
+  <component name="RunManager" selected="Application.PrimeFactors">
     <configuration name="CoinsPercentage" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.CoinsPercentage" />
       <module name="ScalaPracticeProblems" />
@@ -75,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.LeapYear" />
+    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.PowerOfTwo" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.PowerOfTwo" />
+    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.PrimeFactors" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeFactors" />
         <item itemvalue="Application.HarmonicNumber" />
         <item itemvalue="Application.PowerOfTwo" />
         <item itemvalue="Application.ReplaceString" />
         <item itemvalue="Application.CoinsPercentage" />
-        <item itemvalue="Application.LeapYear" />
       </list>
     </recent_temporary>
   </component>
