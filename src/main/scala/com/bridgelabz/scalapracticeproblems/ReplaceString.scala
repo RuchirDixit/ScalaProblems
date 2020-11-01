@@ -13,18 +13,17 @@ import scala.util.matching.Regex
 object ReplaceString {
 
   // It accepts username from user and if it matches the expression then prints "Hello <<username>>, How are you?"
-  def main(args: Array[String]): Unit = {
-    // Handling Input Output Exception
+  def replaceString() = {
     try
       {
-      val pattern = new Regex("^[a-zA-Z]{3,}$")
-      println("Enter username:")
-      val userName = Utilities.getStringInput()
+        val pattern = new Regex("^[a-zA-Z]{3,}$")
+        println("Enter username:")
+        val userName = Utilities.getStringInput()
         // If pattern matches username when print String with username else print Does not match
-      if (pattern.matches(userName))
-        println("Hello " + userName + ", How are you?")
-      else
-        println("Does not match!")
+        if (pattern.matches(userName))
+          println("Hello " + userName + ", How are you?")
+        else
+          println("Does not match!")
       }
     catch
       {
@@ -33,4 +32,10 @@ object ReplaceString {
         }
       }
   }
+
+  // main method calls replaceString method
+  def main(args: Array[String]): Unit = {
+    replaceString()
+  }
+
 }

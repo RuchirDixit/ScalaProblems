@@ -11,28 +11,31 @@ package com.bridgelabz.scalapracticeproblems
 import java.io.IOException
 import scala.util.matching.Regex
 object LeapYear {
-  def main(args: Array[String]): Unit = {
+
+  // check whether number entered is leap year or not
+  def checkLeapYear() = {
     try
       {
         var leap = false
+        // Regula expression to accept 4 integers
         val IsLeapYear = new Regex("^[0-9]{4}$")
         val year = Utilities.getStringInput()
         if (IsLeapYear.matches(year))
+        {
+          val intYear = Integer.parseInt(year)
+          if (intYear % 4 == 0)
           {
-            val intYear = Integer.parseInt(year)
-            if (intYear % 4 == 0)
+            if( intYear % 100 == 0)
             {
-              if( intYear % 100 == 0)
-                {
-                  if (intYear % 400 == 0) leap = true
-                  else leap = false
-                }
-                else {
-                leap = true
-              }
+              if (intYear % 400 == 0) leap = true
+              else leap = false
             }
-            else leap = false
+            else {
+              leap = true
+            }
           }
+          else leap = false
+        }
         if(leap)
           println("Leap Year!")
         else
@@ -49,5 +52,9 @@ object LeapYear {
           println("Arithmetic Exception")
         }
       }
+  }
+  // main method calls checkLeapYear method
+  def main(args: Array[String]): Unit = {
+    checkLeapYear()
   }
 }

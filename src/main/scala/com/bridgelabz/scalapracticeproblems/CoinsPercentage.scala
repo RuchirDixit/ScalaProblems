@@ -11,7 +11,8 @@ package com.bridgelabz.scalapracticeproblems
 object CoinsPercentage {
   // Accepts number of flips from user and calculates percentage of heads and tails
   val ConditionHeadsAndTails = 0.5
-  def main(args: Array[String]): Unit = {
+
+  def calculatePercentage() = {
     try
       {
         val numOfFlips = Utilities.getIntegerInput()
@@ -47,5 +48,9 @@ object CoinsPercentage {
           println("Error,Integer divided by 0")
         }
       }
+  }
+  // main method calls calculatePercentage() method
+  def main(args: Array[String]): Unit = {
+   calculatePercentage()
   }
 }

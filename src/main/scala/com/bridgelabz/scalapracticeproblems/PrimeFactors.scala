@@ -31,7 +31,6 @@ object PrimeFactors {
           println(counter + " ")
           range /= counter
         }
-
         counter += Two
       }
       if (range > Two)
