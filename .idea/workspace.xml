@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/HarmonicNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/HarmonicNumber.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/Utilities.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/CoinsPercentage$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/CoinsPercentage$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/CoinsPercentage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/CoinsPercentage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/HarmonicNumber$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/HarmonicNumber$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PrimeFactors$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PrimeFactors$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PrimeFactors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PrimeFactors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/ReplaceString$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/ReplaceString$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/ReplaceString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/ReplaceString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Utilities$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Utilities$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Utilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoDimensionalArray">
+  <component name="RunManager" selected="Application.SumOfThreeInt">
     <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.HarmonicNumber" />
       <module name="ScalaPracticeProblems" />
@@ -103,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceString" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.ReplaceString" />
+    <configuration name="SumOfThreeInt" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.SumOfThreeInt" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -178,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfThreeInt" />
         <item itemvalue="Application.TwoDimensionalArray" />
         <item itemvalue="Application.HarmonicNumber" />
         <item itemvalue="Application.PrimeFactors" />
         <item itemvalue="Application.PowerOfTwo" />
-        <item itemvalue="Application.ReplaceString" />
       </list>
     </recent_temporary>
   </component>
