@@ -18,12 +18,19 @@ object TwoDimensionalArray {
   // prints the array to screen
   def printArray(rows : Int, columns : Int, array: Array[Array[Int]]): Unit =
   {
-    println("Array is: ")
-    for (counter <- 0 until rows)
-    {
-      for (nestedCounter <- 0 until columns)
+    try {
+      println("Array is: ")
+      for (counter <- 0 until rows)
       {
-        println(array(counter)(nestedCounter) + " ")
+        for (nestedCounter <- 0 until columns)
+        {
+          println(array(counter)(nestedCounter) + " ")
+        }
+      }
+    }
+    catch {
+      case _ : ArrayIndexOutOfBoundsException => {
+        println("Size of array exceeded!")
       }
     }
   }

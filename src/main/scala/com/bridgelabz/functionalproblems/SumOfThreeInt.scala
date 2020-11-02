@@ -13,32 +13,43 @@ object SumOfThreeInt {
 
   // finds 3 integers with sum equals to zero
   def printSumAndCount() = {
-    val number = Utilities.getIntegerInput("Enter number of integers in Array:")
-    var intArray = new Array[Int](number)
-    println("Enter values of array:")
-    var count = 0
-    // accepts value of array from user
-    for( counter <- 0 until number)
+    try {
+      val number = Utilities.getIntegerInput("Enter number of integers in Array:")
+      var intArray = new Array[Int](number)
+      println("Enter values of array:")
+      var count = 0
+      // accepts value of array from user
+      for( counter <- 0 until number)
       {
         intArray(counter) = Utilities.getIntegerInput("")
       }
 
-    // loops through the array to find sum of 3 integers equals to 0
-    for ( counter <- 0 until number-2 )
+      // loops through the array to find sum of 3 integers equals to 0
+      for ( counter <- 0 until number-2 )
       {
         for ( nestedCounter <- counter+1 until number-1 )
+        {
+          for ( insideCounter <- nestedCounter+1 until number )
           {
-            for ( insideCounter <- nestedCounter+1 until number )
-              {
-                if ( (intArray(counter) + intArray(nestedCounter) + intArray(insideCounter)) == 0)
-                  {
-                    count += 1
-                    println(intArray(counter) + " " + intArray(nestedCounter) + " " + intArray(insideCounter))
-                  }
-              }
+            if ( (intArray(counter) + intArray(nestedCounter) + intArray(insideCounter)) == 0)
+            {
+              count += 1
+              println(intArray(counter) + " " + intArray(nestedCounter) + " " + intArray(insideCounter))
+            }
           }
+        }
       }
-    println("Count : " + count)
+      println("Count : " + count)
+    }
+    catch {
+      case _ : NumberFormatException => {
+        println("Incorrect input, Expected value is integer")
+      }
+      case _ : ArithmeticException => {
+        println("Error, Divide by zero")
+      }
+    }
+
   }
   // calls printSumAndCount method
   def main(args: Array[String]): Unit = {

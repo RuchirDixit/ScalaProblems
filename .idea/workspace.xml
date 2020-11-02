@@ -2,38 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Quadratic.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/Quadratic$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/Quadratic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/CoinsPercentage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/CoinsPercentage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/Distance.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/HarmonicNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/HarmonicNumber.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/LeapYear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/PowerOfTwo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/PowerOfTwo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/PrimeFactors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/PrimeFactors.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/ReplaceString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/ReplaceString.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/SumOfThreeInt.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/Utilities.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/CoinsPercentage$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/CoinsPercentage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Distance$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Distance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/HarmonicNumber$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/HarmonicNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/LeapYear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PowerOfTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PrimeFactors$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/PrimeFactors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/ReplaceString$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/ReplaceString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/SumOfThreeInt$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/SumOfThreeInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Utilities$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/Utilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/Utility/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/Utility/Utilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Distance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Distance.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/SumOfThreeInt.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/SumOfThreeInt.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/TwoDimensionalArray.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/TwoDimensionalArray.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/Utility/Utilities$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/Utility/Utilities$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/Utility/Utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/Utility/Utilities.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoDimensionalArray">
-    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.basiccoreproblems.PowerOfTwo" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.functionalproblems.Main" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelabz.basiccoreproblems.*" />
+          <option name="PATTERN" value="com.bridgelabz.functionalproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.basiccoreproblems.PrimeFactors" />
+    <configuration name="Quadratic" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.functionalproblems.Quadratic" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelabz.basiccoreproblems.*" />
+          <option name="PATTERN" value="com.bridgelabz.functionalproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Quadratic" />
         <item itemvalue="Application.TwoDimensionalArray" />
         <item itemvalue="Application.SumOfThreeInt" />
         <item itemvalue="Application.ReplaceString" />
-        <item itemvalue="Application.PrimeFactors" />
-        <item itemvalue="Application.PowerOfTwo" />
       </list>
     </recent_temporary>
   </component>

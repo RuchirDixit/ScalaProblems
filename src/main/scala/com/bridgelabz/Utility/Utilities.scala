@@ -16,9 +16,9 @@ object Utilities {
     println(message)
     scala.io.StdIn.readLine()
   }
-  def getFloatInput(message : String) = {
+  def getDoubleInput(message : String) = {
     println(message)
-    scala.io.StdIn.readFloat()
+    scala.io.StdIn.readDouble()
   }
   def getBooleanInput(message : String) = {
     println(message)

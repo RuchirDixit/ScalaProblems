@@ -15,12 +15,23 @@ object Distance {
   // Method to accept X and Y and print Euclidean distance
   def printEuclideanDistance(): Unit =
   {
-    val x = Utilities.getIntegerInput("Enter x:")
-    val y = Utilities.getIntegerInput("Enter y:")
-    val powerOfX = Math.pow(x,Power)
-    val powerOfY = Math.pow(y,Power)
-    val distance = Math.sqrt(powerOfX + powerOfY)
-    println("Distance:" + distance)
+    try
+      {
+        val x = Utilities.getIntegerInput("Enter x:")
+        val y = Utilities.getIntegerInput("Enter y:")
+        val powerOfX = Math.pow(x,Power)
+        val powerOfY = Math.pow(y,Power)
+        val distance = Math.sqrt(powerOfX + powerOfY)
+        println("Distance:" + distance)
+      }
+    catch {
+      case _ : NumberFormatException => {
+        println("Incorrect input, Expected value is integer")
+      }
+      case _ : ArithmeticException => {
+        println("Error, Divide by zero")
+      }
+    }
   }
 
   // main method calls printEuclideanDistance method
