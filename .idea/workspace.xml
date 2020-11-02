@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/scalapracticeproblems/TwoDimensionalArray$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +48,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumOfThreeInt">
-    <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.HarmonicNumber" />
+  <component name="RunManager" selected="Application.Distance">
+    <configuration name="Distance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.Distance" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.PowerOfTwo" />
+    <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.scalapracticeproblems.HarmonicNumber" />
       <module name="ScalaPracticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Distance" />
         <item itemvalue="Application.SumOfThreeInt" />
         <item itemvalue="Application.TwoDimensionalArray" />
         <item itemvalue="Application.HarmonicNumber" />
         <item itemvalue="Application.PrimeFactors" />
-        <item itemvalue="Application.PowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
