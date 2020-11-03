@@ -37,7 +37,7 @@ object LeapYear {
               leap = true
             }
           }
-          else leap = false
+          else leap = true
         }
         if(leap)
           println("Leap Year!")

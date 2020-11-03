@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/Distance$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/Distance$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/Quadratic$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/Quadratic$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/SumOfThreeInt$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/SumOfThreeInt$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/TwoDimensionalArray$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/TwoDimensionalArray$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/WindChill$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/functionalproblems/WindChill$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Quadratic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Quadratic.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/WindChill.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/WindChill.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Gambler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Gambler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/basiccoreproblems/LeapYear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/basiccoreproblems/LeapYear$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

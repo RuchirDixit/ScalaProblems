@@ -1,7 +1,7 @@
 package com.bridgelabz.logicalproblems
 import com.bridgelabz.Utility.Utilities
 /**
- * author - Admin
+ * author - Ruchir
  * date - 03-11-2020
  * time - 11:47
  * package - com.bridgelabz.logicalproblems
@@ -9,16 +9,14 @@ import com.bridgelabz.Utility.Utilities
  */
 object Gambler {
 
-  val Two = 2
+  val NumberOfOutcomes = 2
   // method to calculate percentage of Wins and Losses
   def calPercentage(wins: Int, chances : Int) = {
-    try
-      {
+    try {
         val loss = chances - wins
         val winPercent = wins/chances.toDouble
         val lossPercent = loss/chances.toDouble
-        println("Win Percent: " + winPercent * 100)
-        println("Loss Percent: " + lossPercent * 100)
+        println("Win Percent: " + winPercent * 100 + "Loss Percent: " + lossPercent * 100)
       }
     catch {
       case _ : ArithmeticException => {
@@ -39,7 +37,7 @@ object Gambler {
         // looping will player goes broke or does not reach goal or does not reach max number of chances
         while ( stake <= goal && stake != goal && count != numberOfChances)
         {
-          val bettingDraw = Math.floor(Math.random * 10).toInt % Two
+          val bettingDraw = Math.floor(Math.random * 10).toInt % NumberOfOutcomes
           count += 1
           if (bettingDraw == 1)
           {
