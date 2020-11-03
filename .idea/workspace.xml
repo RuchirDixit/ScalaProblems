@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Coupon.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/StopWatch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/TicTacToe.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Coupon$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Coupon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/StopWatch$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/StopWatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/TicTacToe$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/TicTacToe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Main.scala" afterDir="false" />
@@ -10,6 +19,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Gambler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Gambler.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/basiccoreproblems/LeapYear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/basiccoreproblems/LeapYear$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Gambler$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Gambler$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Gambler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Gambler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/logicalproblems/Main$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
