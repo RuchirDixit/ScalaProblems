@@ -9,8 +9,12 @@ import scala.util.Random
  */
 
 object Coupon {
-    // accepts total coupons to be generated and generates Distinct Coupons
-    def generateCoupons( total: Int): Unit = {
+  /**
+   *
+   * @param total : total number of coupons to generate
+   *  Output : Randomly generated coupons between minimum value and maximum value
+   */
+  def generateCoupons( total: Int): Unit = {
       try {
         val MinimumValue = 500
         val MaximumValue = 100000

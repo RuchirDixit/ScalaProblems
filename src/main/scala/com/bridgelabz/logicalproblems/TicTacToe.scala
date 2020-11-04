@@ -13,6 +13,7 @@ import com.bridgelabz.Utility.Utilities
 object TicTacToe {
   val Cell = 9
   var count = 0
+  val Start = 1
   var switchPlayer = 2
   var position = 1
   var playerSymbol = "O"
@@ -26,7 +27,7 @@ object TicTacToe {
 
   //  method to reset the board
   def resettingBoard(): Unit = {
-    for (counter <- 1 to 9) {
+    for (counter <- Start to Cell) {
       board(counter) = "-"
     }
   }
@@ -230,7 +231,11 @@ object TicTacToe {
     }
   }
 
-  // method which checks winning condition wrt players
+  /**
+   *
+   * @param letter : gets symbol X or O
+   *  Output : Checks all winning conditions and returns winner = 1 if wins
+   */
   def winningCondition(letter: String): Unit = {
     for (counter <- 1 to Cell by 3) {
       //To check winning condition for row
