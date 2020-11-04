@@ -32,6 +32,9 @@ object Quadratic {
       case _ : ArithmeticException => {
         println("Error, Divide by zero")
       }
+      case _ : Exception => {
+        println("Error, Unhandled exception occurred")
+      }
     }
     }
 }
