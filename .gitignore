@@ -1,3 +1,7 @@
 .bsp/
 .idea/
+<<<<<<< HEAD
+=======
+project/
+>>>>>>> c76256e894d0101ebcac981e62ba5bc29ecc7640
 target/

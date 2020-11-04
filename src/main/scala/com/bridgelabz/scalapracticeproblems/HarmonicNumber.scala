@@ -34,6 +34,9 @@ object HarmonicNumber {
         case _ : NumberFormatException => {
           println("Error, Incorrect Input. Expected value is Int.")
         }
+        case _ : Exception => {
+          println("Error, Unhandled exception occurred")
+        }
       }
 
   }
