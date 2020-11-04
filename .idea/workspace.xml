@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/basiccoreproblems/LeapYear.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Quadratic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/Quadratic.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/WindChill.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/functionalproblems/WindChill.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Gambler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Gambler.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/bridgelabz/logicalproblems/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/basiccoreproblems/LeapYear$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/bridgelabz/basiccoreproblems/LeapYear$.class" afterDir="false" />
-    </list>
+    <list default="true" id="bd825c48-6637-4619-be2e-6a08edf8a129" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +15,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +38,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1jbM6wWUZwjagfufNdgZeDy3vUv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -123,53 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="ScalaPracticeProblems" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="ScalaPracticeProblems" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Quadratic" />
+      <item itemvalue="Application.SumOfThreeInt" />
+      <item itemvalue="Application.TwoDimensionalArray" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
@@ -243,5 +203,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/bridgelabz/scalapracticeproblems/CoinsPercentage.scala</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
