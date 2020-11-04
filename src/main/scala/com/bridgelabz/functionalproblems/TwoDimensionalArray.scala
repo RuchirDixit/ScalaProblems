@@ -10,12 +10,25 @@ import com.bridgelabz.Utility.Utilities
  * title - Accept 2D array from user and print it
  */
 object TwoDimensionalArray {
-  // accepts value of array from user
+  /**
+   *
+   * @param rows : Number of rows in array
+   * @param columns : Number of columns in array
+   * @return : returns 2D array of integer
+   * Input : 2D array of integers with rows and columns
+   */
   def acceptArrayFromUser(rows : Int, columns : Int) = {
     var arr = Utilities.getTwoDIntegerArray(rows,columns,"Enter values:")
     arr
   }
-  // prints the array to screen
+
+  /**
+   *
+   * @param rows : Number of rows in array
+   * @param columns : Number of columns in array
+   * @param array : 2D array of integer
+   * Output - Prints 2D array of integers to screen
+   */
   def printArray(rows : Int, columns : Int, array: Array[Array[Int]]): Unit =
   {
     try {
@@ -31,6 +44,9 @@ object TwoDimensionalArray {
     catch {
       case _ : ArrayIndexOutOfBoundsException => {
         println("Size of array exceeded!")
+      }
+      case _ : Exception => {
+        println("Error, Unhandled exception occurred")
       }
     }
   }
