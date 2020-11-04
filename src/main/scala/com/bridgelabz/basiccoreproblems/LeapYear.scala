@@ -54,6 +54,9 @@ object LeapYear {
         {
           println("Arithmetic Exception")
         }
+        case _ : Exception => {
+          println("Error, Unhandled exception occurred")
+        }
       }
   }
   // main method calls checkLeapYear method

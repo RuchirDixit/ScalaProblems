@@ -32,6 +32,9 @@ object ReplaceString {
         case _: NumberFormatException => {
           println("Incorrect format of Input, expected value is String")
         }
+        case _ : Exception => {
+          println("Error, Unhandled exception occurred")
+        }
       }
   }
 

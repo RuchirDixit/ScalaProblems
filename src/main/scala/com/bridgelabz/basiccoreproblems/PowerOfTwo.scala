@@ -37,6 +37,9 @@ object PowerOfTwo {
         {
           println("Error, Cannot Divide By Zero")
         }
+        case _ : Exception => {
+          println("Error, Unhandled exception occurred")
+        }
       }
   }
   // main method to call calculatePowerOfTwo method

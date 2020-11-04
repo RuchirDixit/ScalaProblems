@@ -11,9 +11,8 @@ import com.bridgelabz.Utility.Utilities
  */
 
 object CoinsPercentage {
-  // Accepts number of flips from user and calculates percentage of heads and tails
   val ConditionHeadsAndTails = 0.5
-
+  // Accepts number of flips from user and calculates percentage of heads and tails
   def calculatePercentage() = {
     try
       {
@@ -48,6 +47,9 @@ object CoinsPercentage {
         }
         case _ : ArithmeticException => {
           println("Error,Integer divided by 0")
+        }
+        case _ : Exception => {
+          println("Error, Unhandled exception occurred")
         }
       }
   }

@@ -47,6 +47,9 @@ object PrimeFactors {
         {
           println("Error, Expected value is Integer")
         }
+        case _ : Exception => {
+          println("Error, Unhandled exception occurred")
+        }
       }
   }
   // main method calls printPrimeFactors method
