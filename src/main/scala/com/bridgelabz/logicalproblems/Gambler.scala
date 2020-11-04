@@ -10,7 +10,13 @@ import com.bridgelabz.Utility.Utilities
 object Gambler {
 
   val NumberOfOutcomes = 2
-  // method to calculate percentage of Wins and Losses
+
+  /**
+   *
+   * @param wins : number of wins in chances played
+   * @param chances : number of chances player
+   *  Output : prints the win and loss percentage to the screen
+   */
   def calPercentage(wins: Int, chances : Int) = {
     try {
         val loss = chances - wins
@@ -21,6 +27,9 @@ object Gambler {
     catch {
       case _ : ArithmeticException => {
         println("Error, Cannot divide by zero")
+      }
+      case _ : Exception => {
+        println("Error, Unhandled exception occurred")
       }
     }
   }
@@ -58,6 +67,9 @@ object Gambler {
       }
       case _ : ArithmeticException => {
         println("Error, Cannot divide by zero")
+      }
+      case _ : Exception => {
+        println("Error, Unhandled exception occurred")
       }
     }
   }
